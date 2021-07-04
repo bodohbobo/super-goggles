@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <!--stylesheet-->
+        <link href="styles.css" rel="stylesheet">
+
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Black+Han+Sans&family=Charmonman:wght@400;700&family=DM+Serif+Text&family=Fugaz+One&family=Merriweather:wght@900&family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Noto+Serif:ital,wght@1,700&family=Oleo+Script&family=Pacifico&family=Patua+One&family=Secular+One&family=Suez+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+        <!--
+        font-family: 'Bad Script', cursive;
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'Charmonman', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-family: 'Fugaz One', cursive;
+        font-family: 'Merriweather', serif;
+        font-family: 'Mountains of Christmas', cursive;
+        font-family: 'Neucha', cursive;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oleo Script', cursive;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Patua One', cursive;
+        font-family: 'Secular One', sans-serif;
+        font-family: 'Suez One', serif;
+        font-family: 'Ubuntu', sans-serif;
+        -->
+
+
+        <!---styling title bar-->
+        <title>Tiger Balm | Singapore's #1 Pain Relieving Ointment</title>
+        <link rel="icon" href="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2018/07/tb_logo2.png">
+
+    </head>
+
+    <body>
+
+        <!--nav bars-->
+        <div>
+            <!--nav bar-->
+            <nav class="navbar navbar-expand-sm nav-topbar">
+
+                <!--brand logo-->
+                <a href="index.html">
+                    <img src="tigerbalmlogo.png" alt="Tiger Balm Logo" width="108px" height="108px">
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!--nav links-->
+                    <ul class="navbar-nav">
+
+                        <!--home page-->
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <!--about us page-->
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </li>
+
+                        <!--products page-->
+                        <li class="nav-item">
+                            <a href="products.html" class="nav-link">Our Product Line</a>
+                        </li>
+
+                        <!--techniques-->
+                        <li class="nav-item">
+                            <a href="techniques.html" class="nav-link">Tiger Balm Uses</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row" style="margin-bottom:40px;">
+                <div class="col-12">
+                    <h1 style="font-family:'Ubuntu', sans-serif; align-items:center; text-align:center;" id="welcome">Hi
+                        <input type="text" name="nameSubmitted" id="nameSubmitted" placeholder="Enter your name" width="50%" size="8"></input>
+                        <button type="submit" id="clickSubmit" name="nameSubmitted">Submit</button>
+
+                        <script>
+                            document.getElementById("clickSubmit").addEventListener('click', function(){
+                                let name = document.getElementById("nameSubmitted");
+                                if(name.value){
+                                    document.getElementById("welcome").innerHTML=`Hi, ${name.value}! <br> Welcome to Tiger Balm!`;
+                                }
+                                else{
+                                    document.getElementById("welcome").innerHTML="Hi there! <br> Welcome to Tiger Balm";
+                                }
+                                name.style.display = "none";
+                                document.getElementById("clickSubmit").style.display="none";
+                            });
+                        </script>
+                    </h1>
+                </div>
+            </div>
+
+            <!--firstimage-->
+            <div class="row">
+                <!--image-->
+                <div class="col-sm-6">
+                    <img src="tigerbalmandhand.png" alt="Hand holding Tiger Balm" width="100%" height="width" style="border-radius:20px;">
+                </div>
+
+                <!--tagline-->
+                <div class="col-sm-6" style="font-family:'Ubuntu', sans-serif; align-items:center;">
+                    <h1 style="color:blue;">WORKS WHERE IT HURTS.<br>WORKS FOR MILLIONS WORLDWIDE.</h1>
+                    <br>
+                    <p>Tiger Balm, the world’s leading analgesic remedy that works where it hurts.
+                     A name that has been trusted by generations to provide care, healing and comfort for over 100 years.</p>
+
+                    <!--corporate vid-->
+                    <button type="button" class="vidButton">
+                         <a href="https://www.youtube.com/embed/MP_M5qUqdF8" target="_blank">Learn More About Tiger Balm</a>
+                    </button>
+                </div>
+              </div>
+        </div>
+
+        <!--product advisor-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                    <h1 style="font-family:'Ubuntu', sans-serif; align-items:center;">Find the Right Tiger Balm Product for Me</h1>
+                    <br>
+                    <h2 style="color:indianred; text-align:center;font-weight:bold;">My symptoms</h2>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <!--image-->
+                <div class="col-sm-6">
+                    <img src="handpain.png" alt="hand pain" width="100%" style="border-radius:20px;">
+                </div>
+
+                <!--symptoms-->
+                <div class="col-sm-6 symptoms" style="display:grid; align-items:center;">
+                    <button type="button" class="symptomsButton" id="neckShoulderPainButton">Neck and Shoulder Pain</button>
+
+                        <div class="container productrecomendation" id="nspBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmLotion" class="productRecommendationLink">Tiger Balm Lotion</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmNeckAndShoulderRub" class="productRecommendation">Tiger Balm Neck and Shoulder Rub</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmNeckAndShoulderRubBoost" class="productRecommendation">Tiger Balm Neck and Shoulder Rub Boost</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterCool" class="productRecommendation">Tiger Balm Plaster (Cool)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterWarm" class="productRecommendation">Tiger Balm Plaster (Warm)</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            let nspBox = document.getElementById('nspBox');
+
+                            document.getElementById('neckShoulderPainButton').addEventListener('click', function(){
+                               if(nspBox.style.display=='none'){
+                                nspBox.style.display = 'flex';
+                               }
+                               else{
+                                   nspBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                    <br>
+                    <button type="button" class="symptomsButton" id="backPainButton">Back Pain</button>
+
+                        <div class="container productrecomendation" id="bpBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmLotion" class="productRecommendationLink">Tiger Balm Lotion</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmLiniment" class="productRecommendation">Tiger Balm Liniment</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmBackPainPatch" class="productRecommendation">Tiger Balm Back Pain Patch</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterCool" class="productRecommendation">Tiger Balm Plaster (Cool)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterWarm" class="productRecommendation">Tiger Balm Plaster (Warm)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmUltraThinPatch" class="productRecommendation">Tiger Balm Ultra Thin Patch</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script>
+                            let bpBox = document.getElementById('bpBox');
+
+                            document.getElementById('backPainButton').addEventListener('click', function(){
+                               if(bpBox.style.display=='none'){
+                                bpBox.style.display = 'flex';
+                               }
+                               else{
+                                   bpBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                    <br>
+                    <button type="button" class="symptomsButton" id="jointsAndSprainsButton">Joint and Sprain Relief</button>
+
+                        <div class="container productrecomendation" id="jsBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmLotion" class="productRecommendationLink">Tiger Balm Lotion</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmLiniment" class="productRecommendation">Tiger Balm Liniment</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmJointRub" class="productRecommendation">Tiger Balm Joint Rub</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterCool" class="productRecommendation">Tiger Balm Plaster (Cool)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterWarm" class="productRecommendation">Tiger Balm Plaster (Warm)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmUltraThinPatch" class="productRecommendation">Tiger Balm Ultra Thin Patch</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmRed" class="productRecommendation">Tiger Balm Red</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleGel" class="productRecommendation">Tiger Balm Active Muscle Gel</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleRub" class="productRecommendation">Tiger Balm Active Muscle Rub</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleSpray" class="productRecommendation">Tiger Balm Active Muscle Spray</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            let jsBox = document.getElementById('jsBox');
+
+                            document.getElementById('jointsAndSprainsButton').addEventListener('click', function(){
+                               if(jsBox.style.display=='none'){
+                                jsBox.style.display = 'flex';
+                               }
+                               else{
+                                   jsBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                    <br>
+                    <button type="button" class="symptomsButton" id="muscleacheAndStrainButton">Muscle Ache and Strain Relief</button>
+
+                        <div class="container productrecomendation" id="msBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmLotion" class="productRecommendationLink">Tiger Balm Lotion</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmLiniment" class="productRecommendation">Tiger Balm Liniment</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterCool" class="productRecommendation">Tiger Balm Plaster (Cool)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmPlasterWarm" class="productRecommendation">Tiger Balm Plaster (Warm)</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmUltraThinPatch" class="productRecommendation">Tiger Balm Ultra Thin Patch</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmRed" class="productRecommendation">Tiger Balm Red</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleGel" class="productRecommendation">Tiger Balm Active Muscle Gel</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleRub" class="productRecommendation">Tiger Balm Active Muscle Rub</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmActiveMuscleSpray" class="productRecommendation">Tiger Balm Active Muscle Spray</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            let msBox = document.getElementById('msBox');
+
+                            document.getElementById('muscleacheAndStrainButton').addEventListener('click', function(){
+                               if(msBox.style.display=='none'){
+                                msBox.style.display = 'flex';
+                               }
+                               else{
+                                   msBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                    <br>
+                    <button type="button" class="symptomsButton" id="coldAndNasalButton">Cold and Nasal Relief</button>
+
+                        <div class="container productrecomendation" id="cnBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmSoft" class="productRecommendationLink">Tiger Balm Soft</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmWhite" class="productRecommendation">Tiger Balm White</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            let cnBox = document.getElementById('cnBox');
+
+                            document.getElementById('coldAndNasalButton').addEventListener('click', function(){
+                               if(cnBox.style.display=='none'){
+                                cnBox.style.display = 'flex';
+                               }
+                               else{
+                                   cnBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                    <br>
+                    <button type="button" class="symptomsButton" id="tensionHeadacheButton">Tension Headache</button>
+
+                        <div class="productrecomendation" id="thBox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="products.html#tigerBalmSoft" class="productRecommendationLink">Tiger Balm Soft</a>
+                                    <br>
+                                    <a href="products.html#tigerBalmWhite" class="productRecommendation">Tiger Balm White</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            let thBox = document.getElementById('thBox');
+
+                            document.getElementById('tensionHeadacheButton').addEventListener('click', function(){
+                               if(thBox.style.display=='none'){
+                                thBox.style.display = 'flex';
+                               }
+                               else{
+                                   thBox.style.display='none'
+                               }
+                            });
+                        </script>
+
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer class="container-fluid text-center footer">
+            <div class="row">
+                <div class="col-sm-4" style="text-align:start;">
+                    <!--authorship information-->
+                    <p >Author: <b>Chloe Lim</b></p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!--disclaimer-->
+                            <p><em>Disclaimer: This is not the official Tiger Balm Website!</em></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Visit the actual Tiger Balm website <a href="https://www.tigerbalm.com/sg/">here</a>.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--second col-->
+                <div class="col-sm-4" style="text-align:start;">
+                    <!--contact-->
+                    <p>Contact us at example@example.com or 12345678</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!--press release-->
+                            <p>Find our press releases <a href="https://www.tigerbalm.com/sg/press_room/">here</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>And legal and privacy matters <a href="https://www.tigerbalm.com/sg/pages/privacy/">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!--third col-->
+            <div class="col-sm-4" style="text-align:start;">
+                <!--sitemap-->
+                <p>Visit us at:</p>
+
+                <div class="row">
+
+                        <!--map-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.50713007409!2d103.7225873384271!3d1.3061145061188493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0ff81338b9af%3A0x6cb140d5b38ca1e!2sHaw%20Par%20Tiger%20Balm%20Building!5e0!3m2!1sen!2ssg!4v1625286886366!5m2!1sen!2ssg"
+                        width="100%" height="fit-content" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+            </div>
+            <!--contact us-->
+            <!--press release-->
+            <!--sitemap-->
+            <!--social media-->
+        </footer>
+    </body>
+</html>

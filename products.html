@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--stylesheet-->
+        <link href="styles.css" rel="stylesheet">
+
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Black+Han+Sans&family=Charmonman:wght@400;700&family=DM+Serif+Text&family=Fugaz+One&family=Merriweather:wght@900&family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Noto+Serif:ital,wght@1,700&family=Oleo+Script&family=Pacifico&family=Patua+One&family=Secular+One&family=Suez+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+        <!--
+        font-family: 'Bad Script', cursive;
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'Charmonman', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-family: 'Fugaz One', cursive;
+        font-family: 'Merriweather', serif;
+        font-family: 'Mountains of Christmas', cursive;
+        font-family: 'Neucha', cursive;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oleo Script', cursive;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Patua One', cursive;
+        font-family: 'Secular One', sans-serif;
+        font-family: 'Suez One', serif;
+        font-family: 'Ubuntu', sans-serif;
+        -->
+
+
+        <!---styling title bar-->
+        <title>Tiger Balm | Singapore's #1 Pain Relieving Ointment</title>
+        <link rel="icon" href="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2018/07/tb_logo2.png">
+
+    </head>
+
+    <body>
+
+        <!--nav bars-->
+        <div>
+            <!--nav bar-->
+            <nav class="navbar navbar-expand-sm nav-topbar">
+
+                <!--brand logo-->
+                <a href="index.html">
+                    <img src="tigerbalmlogo.png" alt="Tiger Balm Logo" width="108px" height="108px">
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!--nav links-->
+                    <ul class="navbar-nav">
+
+                        <!--home page-->
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <!--about us page-->
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </li>
+
+                        <!--products page-->
+                        <li class="nav-item">
+                            <a href="products.html" class="nav-link">Our Product Line</a>
+                        </li>
+
+                        <!--techniques-->
+                        <li class="nav-item">
+                            <a href="techniques.html" class="nav-link">Tiger Balm Uses</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="text-align:center;">
+                    <h1 style="color:brown;font-weight:bold;">A TIGER BALM FOR EVERYONE</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p style="padding:1rem 3rem 0rem 3rem; text-align:justify">Tiger Balm understands that consumers are increasingly looking for dedicated home remedies, and that there are different discomforts brought on by different activities and lifestyles. So be it headaches and cold, rheumatic or arthritic pains, or muscle strains and pains, there’s a Tiger Balm remedy just for you.
+                    <br> <br> <b>Explore our family of products below and discover which is your Tiger Balm.</b></p>
+                    <br>
+                    <br>
+                    <div style="padding:0rem 3rem 0rem 3rem; text-align:center;">
+                        <a href="#classicRange" style="background-color:orange; border-color:transparent; border-radius:2rem; padding:1rem; margin:0.5rem; display:inline-flex; color:white; font-weight:bold;">Classic Range</a>
+                        <a href="#balanceRange" style="background-color:cornflowerblue; border-color:transparent; border-radius:2rem; padding:1rem; margin:0.5rem; display:inline-flex; color:white; font-weight:bold;">Balance Range</a>
+                        <a href="#juniorRange" style="background-color:seagreen; border-color:transparent; border-radius:2rem; padding:1rem; margin:0.5rem; display:inline-flex; color:white; font-weight:bold;">Junior Range</a>
+                        <a href="#activeRange" style="background-color:tomato; border-color:transparent; border-radius:2rem; padding:1rem; margin:0.5rem; display:inline-flex; color:white; font-weight:bold;">Active Range</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--classic range-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <a id="classicRange">
+                    <h1 style="font-weight:bold; color:coral; text-align:center; margin-bottom:0.5rem;">Classic Range</h1></a>
+                    <p style="text-align:center; margin-bottom:3rem;padding:1rem 3rem 1rem 3rem; text-align:justify">Little packages – big relief. Suitable for all members of the family young and old, our Classic range consists of tried and trusted products whose efficacy transcends age and time.
+                    Based on Tiger Balm’s proven and trusted herbal formulation, this range truly pays homage to our 100 years of heritage.</p>
+                </div>
+            </div>
+
+            <!--row1-->
+            <div class="row"  style="align-items:flex-end">
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/08/6.png" alt="Tiger Balm Joint Rub" class="classic-img card-img-top" width="100%">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmJointRub">
+                            <h4 class="card-title">Tiger Balm Joint Rub</h4></a>
+                            <p>The efficacy of Tiger Balm in a unique formulation developed for arthritis pain relief, targeting joint pains and stiffness. Containing glucosamine, chondroitin and MSM, this non-greasy lotion gives a warming sensation for quick relief from arthritis and joint pain. With its convenient pump, it allows arthritis sufferers to dispense the product easily anytime, anywhere.</p>
+                            <ul>
+                                <li>Relieves joint pains from arthritis, muscle sprains and stiffness</li>
+                                <li>Beneficial for joint pains</li>
+                                <li>Non-greasy formula for all skin types</li>
+                                <li>113ml convenient pump bottle</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Everyday necessity for me and my family!"- John Tan</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/08/12.png" alt="Tiger Balm Liniment" class="classic-img card-img-top">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmLiniment">
+                            <h4 class="card-title classic-img">Tiger Balm Liniment</h4></a>
+                            <p>The trusted Tiger Balm muscular pain relief in liquid form. A clear favorite to soothe muscular pains and joint pains, backaches, strains, bruises and sprains. Ideal for application over larger affected areas for fast, effective relief.</p>
+                            <ul>
+                                <li>Relief for muscle pains & joint aches, backaches, strains, bruises & sprains</li>
+                                <li>Fast acting pain relief properties</li>
+                                <li>Easy to apply over large areas of the body</li>
+                                <li>28ml & 57ml bottled oil</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"I use this everyday to soothe my muscle pains, can't live without it."- Tracy Goh</i></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--row2-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_red.png" alt="Tiger Balm Red" class="classic-img card-img-top" width="100%">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmRed">
+                            <h4 class="card-title">Tiger Balm Red</h4></a>
+                            <p>The warm variation of the classic Tiger Balm muscle pain relief ointment is ideal for soothing muscular aches and pains. This muscle pain relieving ointment also works fast to soothe itch due to insect bites. Rub over affected area to reduce aches, swelling and other discomforts quickly and effectively.</p>
+                            <ul>
+                                <li>Warm relief for muscle pains and itches due to insect bites</li>
+                                <li>Fast acting pain-relief properties</li>
+                                <li>Ointment made from herbal ingredients</li>
+                                <li>Available in sizes from 1.25g to 30g</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Helps immensely with soothing those pesky mosquito bites."- Lily Koh</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_soft.png" alt="Tiger Balm Soft" class="classic-img card-img-top">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmSoft">
+                            <h4 class="card-title classic-img">Tiger Balm Soft</h4></a>
+                            <p>The choice Tiger Balm for the modern executive. A softer texture balm with soothing lavender fragrance – complete with the ointment’s classic healing and headache relief properties. Expect effective relief for headaches, stuffy nose, or muscular aches and strains. Delivering a relaxing aromatherapy sensation, Tiger Balm Soft makes a great pocket companion for minor ailments – at home, work or on-the-go.</p>
+                            <ul>
+                                <li>Relieves headaches and stuffy nose, muscular aches and strains</li>
+                                <li>Lavender scented</li>
+                                <li>25g / 50gm ointment jars</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"An all time classic! I've been using this since young!"- Holly Hong</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--row3-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_white.png" alt="Tiger Balm White" class="classic-img card-img-top" width="100%">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmWhite">
+                            <h4 class="card-title">Tiger Balm White</h4></a>
+                            <p>The classic Tiger Balm ointment which many of us grew up with. It is often used for headache remedies. Count on this family favorite to soothe a variety of ailments like stuffy nose, flatulence and itch due to insect bites. Gently rub over the affected area to allow its herbal formulation to soothe headaches, stuffy nose and other discomforts quickly and effectively.</p>
+                            <ul>
+                                <li>Headache remedies, relieves stuffy nose, flatulence and itch due to insect bites</li>
+                                <li>Fast acting pain-relief properties</li>
+                                <li>Made from herbal ingredients</li>
+                                <li>Available in sizes from 1.25g to 30g</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Helps greatly with my sinus."- Kristy Ang</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2019/10/classic-range-TBBPP-New-Pack-Shot-side-view.png" alt="Tiger Balm Liniment" class="classic-img card-img-top">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmBackPainPatch">
+                            <h4 class="card-title classic-img">Tiger Balm Back Pain Patch</h4></a>
+                            <p>Tiger Balm Back Pain Patch offers pain relief for back pain by combining the healing properties of Tiger Balm’s plaster with hydrogel innovation. Tiger Balm Back Pain Patch is customized to deliver long lasting pain relief for back pain in a highly stretchable format that fits the contours of the back. Using ventilated material, Tiger Balm Back Pain Patch is also comfortable to wear.</p>
+                            <ul>
+                                <li>Pain Relief for back pain</li>
+                                <li>Stretches to cover back</li>
+                                <li>Comfortable to wear</li>
+                                <li>Available in one pack size of 2 plasters (10cm x 14cm)</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Useful especially after a tiring day at work."- Taylor Low</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--row4-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/08/11.png" alt="Tiger Balm Joint Rub" class="classic-img card-img-top" width="100%">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmPlasterCool">
+                            <h4 class="card-title">Tiger Balm Plaster (Cool)</h4></a>
+                            <p>Tiger Balm Plaster (Cool) is a unique preparation that provides long lasting muscular pain relief. It provides comfort and helps to relieve sprains, strains, contusions, stiff neck & shoulders and relieve muscular pain. Using hydrogel technology on non-woven ventilated material, Tiger Balm Plaster (Cool) is comfortable to use with easy-on, easy-off application that leaves no residue on skin, and provides quick, effective muscular pain relief for hours.</p>
+                            <ul>
+                                <li>Muscle pain relief and relief from general aches, strains and contusions</li>
+                                <li>Long lasting and comfortable to wear</li>
+                                <li>Available in 2 sizes:</li>
+                                    <ul>
+                                        <li><i>Small (10cm x 7cm) – For neck, arms, legs and joints</i></li>
+                                        <li><i>Large (10cm x 14cm) – For back and shoulder blades</i></li>
+                                    </ul>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Easy to use and effective."- Toh Xiao Ming</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/08/5.png" alt="Tiger Balm Liniment" class="classic-img card-img-top">
+                        <div class="card-body classic-img">
+                            <a id="tigerBalmPlasterWarm">
+                            <h4 class="card-title classic-img">Tiger Balm Plaster (Warm)</h4></a>
+                            <p>One of the best stiff neck remedies, the warm pain relief patch is comfortable to wear, provides long lasting relief and developed with Tiger Balm’s distinctive formulation. Tiger Balm Plaster (Warm) is a unique preparation that provides long lasting, soothing relief for stiff necks and muscular aches and pains. It is comfortable and an effective remedy for stiff neck and shoulders, back pains and muscular fatigue. Made from hydrogel technology and non-woven ventilated material, Tiger Balm Plaster (Warm) is comfortable to use with easy application that leaves no residue on skin, making it ideal for everyday use.</p>
+                            <ul>
+                                <li>Warm relief for sore muscles, stiff neck and backaches</li>
+                                <li>Long lasting, comfortable to wear</li>
+                                <li>Available in 2 sizes:</li>
+                                    <ul>
+                                        <li><i>Small (10cm x 7cm) – For neck, arms, legs and joints</i></li>
+                                        <li><i>Large (10cm x 14cm) – For back and shoulder blades</i></li>
+                                    </ul>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Very good. Five stars."- Xiao Hua Tan</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--balance range-->
+        <div class="container-fluid" style="margin-top:8rem;">
+
+            <div class="row">
+                <div class="col-12">
+                    <a id="balanceRange">
+                    <h1 style="font-weight:bold; color:mediumblue; text-align:center; margin-bottom:0.5rem;">Balance Range</h1></a>
+                    <p style="text-align:center; margin-bottom:3rem;padding:1rem 3rem 1rem 3rem; text-align:justify">Relief on the go for mobile executives.
+                    Juggling between a busy work day, an active social life and spending time with the family is no easy task. The Balance range from Tiger Balm provides convenient solutions customized for your fast-paced modern lifestyle. Our trusted formula with an urban twist.</p>
+                </div>
+            </div>
+
+            <!--row1-->
+            <div class="row"  style="align-items:flex-end">
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="tiger_balm_mosquito_repellent_aerosol.png" alt="TIGER BALM MOSQUITO REPELLENT AEROSOL" class="balance-img card-img-top" style="width=150px;">
+                        <div class="card-body balance-img">
+                            <h4 class="card-title">Tiger Balm Mosquito Repellent Aerosol</h4>
+                            <p>A Must Have for the great outdoors. The plant based ingredients in Tiger Balm Mosquito Repellent Aerosol safely and effectively repels mosquitoes. Aerosol spray allows for even coating, and provides hours of effective protection from mosquitoes on treated skin and clothing.</p>
+                            <ul>
+                                <li>DEET free, safe to use</li>
+                                <li>Non-greasy</li>
+                                <li>Fine mist</li>
+                                <li>120 ml spray bottle</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Good at keeping the mozzies at bay"- Penny Oh</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_mosquito-repellent-spray.png" alt="TIGER BALM MOSQUITO REPELLENT SPRAY" class="balance-img card-img-top">
+                        <div class="card-body balance-img">
+                            <h4 class="card-title balance-img">Tiger Balm Mosquito Repellet Spray</h4>
+                            <p>An essential companion for the great outdoors, Tiger Balm Mosquito Repellent Spray uses a unique blend of the Tiger Balm formula and citronella oil to keep you safe from mosquito bites.</p>
+                            <ul>
+                                <li>Prevents mosquito bites</li>
+                                <li>DEET free, safe to use</li>
+                                <li>260ml spray bottle</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"I like, no mosquitos after applying."- Andy Soh</i></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--row2-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/lotion.png" alt="Tiger Balm Lotion" class="balance-img card-img-top" width="100%">
+                        <div class="card-body balance-img">
+                            <a id="tigerBalmLotion">
+                            <h4 class="card-title">Tiger Balm Lotion</h4></a>
+                            <p>Leave pain behind with new Tiger Balm Lotion. Made with a unique Tiger Balm formulation, it’s quick drying, has a pleasant scent and comes in a handy bottle that can be applied directly to harder to reach places. Grab one and you won’t look back!</p>
+                            <ul>
+                                <li>Extra-strength pain relieving lotion</li>
+                                <li>Convenient applicator for hard to reach areas</li>
+                                <li>Pleasant scent, quick drying and non-staining liquid formulation</li>
+                                <li>Available in 80ml</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Amazing! Amazing! Amazing!"- Yvonne Lee</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_neck-and-shoulder-rub.png" alt="Tiger Balm Neck and Shoulder Rub" class="balance-img card-img-top">
+                        <div class="card-body balance-img">
+                            <a id="tigerBalmNeckAndShoulderRub">
+                            <h4 class="card-title balance-img">Tiger Balm Neck and Shoulder Rub</h4></a>
+                            <p>Experience a massage-on-the-go with Tiger Balm’s revolutionary Neck & Shoulder Rub. Specially developed for neck pain relief and easing shoulder aches, massage this aqueous, non-greasy lotion and feel the pain in your neck and shoulder melt away. Like the effect of a relaxing massage, Tiger Balm Neck & Shoulder Rub soothes away stress and aches with its calming scent and soothing formulation, making this conveniently sized tube a must for anyone needing quick relief from neck pain and shoulder aches.</p>
+                            <ul>
+                                <li>Relieves shoulder and neck pain</li>
+                                <li>Non-greasy, pleasant and soothing scent</li>
+                                <li>50gm lotion tube</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"This is the best thing ever, I love it!"- Ollie Wee</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--row3-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_neck-and-shoulder-boost.png" alt="Tiger Balm Neck and Shoulder Rub Boost" class="balance-img card-img-top" width="100%">
+                        <div class="card-body balance-img">
+                            <a id="tigerBalmNeckAndShoulderRubBoost">
+                            <h4 class="card-title">Tiger Balm Neck and Shoulder Rub Boost</h4></a>
+                            <p>The favorite Tiger Balm Neck & Shoulder Rub formula given an extra oomph to deliver stronger shoulder pain relief, and soothe stiff neck and muscles aches. A modern workday staple for the busy executive on-the-go who needs a stronger massage for hectic days.</p>
+                            <ul>
+                                <li>Stronger relief for shoulder pain, sore and stiff neck</li>
+                                <li>Non-greasy texture and soothing scent</li>
+                                <li>50gm lotion tube</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Uncle approved. Uncle say good."- Uncle Wong</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/08/7.png" alt="Tiger Balm Ultra Thin Patch" class="balance-img card-img-top">
+                        <div class="card-body balance-img">
+                            <a id="tigerBalmUltraThinPatch">
+                            <h4 class="card-title balance-img">Tiger Balm Ultra Thin Patch</h4></a>
+                            <p>Feel the relief, not the patch with Tiger Balm Ultra Thin Patch, the muscle pain remedy that’s big on relief. Flexible and stretchable, this plaster offers a long lasting soothing effect to relieve muscular aches and strains, backaches, sprains and sore joints. Inconspicuous and mildly scented, Tiger Balm Ultra Thin Patch is ideal for use throughout the day and in any situation for fast, effective relief when you need it.</p>
+                            <ul>
+                                <li>Use as a muscle pain remedy and for relief of shoulder aches, sprains and sore joints</li>
+                                <li>Inconspicuous, mildly scented for use anytime, anywhere</li>
+                                <li>5 patches in a box (7cm x 10cm)</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"This is really effective, better than other alternatives on the market!"- Ken Kong</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        <!--junior range-->
+        <div class="container-fluid" style="margin-top:8rem;">
+
+            <div class="row">
+                <div class="col-12">
+                    <a id="juniorRange">
+                    <h1 style="font-weight:bold; color:forestgreen; text-align:center; margin-bottom:0.5rem;">Junior Range</h1></a>
+                    <p style="text-align:center; margin-bottom:3rem;padding:1rem 3rem 1rem 3rem; text-align:justify">Big relief for the little ones.
+                    There is no arguing that mummy’s affection always works when junior needs a little comfort. And we have just the range of products to make things easier. The Junior range from Tiger Balm –protection and healing for children and young ones, one less worry for parents.</p>
+                </div>
+            </div>
+
+            <!--row1-->
+            <div class="row"  style="align-items:flex-end">
+                <div class="col-sm-6">
+                    <div class="card classic-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_mosquito-repellent-patch.png" alt="Tiger Balm Mosquito Repellent Patch" class="classic-img card-img-top" width="100%">
+                        <div class="card-body classic-img" style="background-color:seagreen;">
+                            <h4 class="card-title">Tiger Balm Mosquito Repellent Patch</h4>
+                            <p>Tiger Balm Mosquito Repellent Patch keeps your little ones safe from mozzie bites while they’re out in the great outdoors, and works indoors just as well. The unique formulation wards off mosquitoes and insect bites effectively and naturally, so your child plays safer, for longer.</p>
+                            <ul>
+                                <li>Long lasting, natural mosquito repellent formulation</li>
+                                <li>Chemical DEET free</li>
+                                <li>10 individually-sealed patches in a box</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img" style="background-color:mediumseagreen;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Easy to use and does the job like promised."- George Chan</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" style="display:none;">
+                    <div class="card classic-img">
+                        <div class="card-body classic-img">
+                            <h4 class="card-title classic-img">Tiger Balm Liniment</h4>
+                            <p>The trusted Tiger Balm muscular pain relief in liquid form. A clear favorite to soothe muscular pains and joint pains, backaches, strains, bruises and sprains. Ideal for application over larger affected areas for fast, effective relief.</p>
+                            <ul>
+                                <li>Relief for muscle pains & joint aches, backaches, strains, bruises & sprains</li>
+                                <li>Fast acting pain relief properties</li>
+                                <li>Easy to apply over large areas of the body</li>
+                                <li>28ml & 57ml bottled oil</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer classic-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+
+        <!--active range-->
+        <div class="container-fluid" style="margin-top:8rem; margin-bottom:8rem; align-items:baseline;">
+
+            <div class="row">
+                <div class="col-12">
+                    <a id="activeRange">
+                    <h1 style="font-weight:bold; color:orangered; text-align:center; margin-bottom:0.5rem;">Active Range</h1></a>
+                    <p style="text-align:center; margin-bottom:3rem;padding:1rem 3rem 1rem 3rem; text-align:justify">Feel on top of your game.
+                    When you are enjoying the adrenalin rush of a physical activity, the last thing you need is an ache or a pain. The Tiger Balm Active range caters to the needs of individuals who are fitness oriented, health conscious and constantly engaged in some form of physical activity.</p>
+                </div>
+            </div>
+
+            <!--row1-->
+            <div class="row"  style="align-items:flex-end">
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/06/pp_muscle-gel.png" alt="Tiger Balm active muscle gel" class="balance-img card-img-top">
+                        <div class="card-body balance-img" style="background-color:tomato;">
+                            <a id="tigerBalmActiveMuscleGel">
+                            <h4 class="card-title">Tiger Balm Active Muscle Gel</h4></a>
+                            <p>Tiger Balm Active Muscle Gel helps combat fatigued muscles and aids recovery by providing relief for muscle aches. Its cool, followed by warm sensation works effectively in providing rapid muscle ache relief. The gel’s aqueous texture allows it to be applied over large areas of the body.</p>
+                            <ul>
+                                <li>Relieves sore and fatigued muscles</li>
+                                <li>For after-sport cool down</li>
+                                <li>Non-greasy</li>
+                                <li>60g tube</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img" style="background-color:firebrick;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Great and does what it says!"- Joe Soon</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/sites/4/2020/06/pp_muscle-rub.png" alt="Tiger Balm Active Muscle Rub" class="balance-img card-img-top">
+                        <div class="card-body balance-img" style="background-color:tomato;">
+                            <a id="tigerBalmActiveMuscleRub">
+                            <h4 class="card-title balance-img">Tiger Balm Active Muscle Rub</h4></a>
+                            <p>Tiger Balm Active Muscle Rub is the ideal product for the soothing of muscle aches and pains for sporting enthusiasts. Unlike most other muscle rubs, Tiger Balm Active Muscle Rub is non-greasy, and its warm treatment acts as an effective pre-sports warm up to get you going.</p>
+                            <ul>
+                                <li>Relieves sore muscles, sprains, and strains</li>
+                                <li>For pre-sports warm up</li>
+                                <li>Non-greasy and easy to apply</li>
+                                <li>60g tube</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img" style="background-color:firebrick;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"This is my favourite."- Ron Foo</i></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--row2-->
+            <div class="row" style="margin-top:2rem; align-items:flex-end;">
+                <div class="col-sm-6">
+                    <div class="card balance-img">
+                        <img src="https://www.tigerbalm.com/sg/wp-content/uploads/2018/07/pp_active-spray.png" alt="Tiger Balm Active Muscle Spray" class="balance-img card-img-top" width="100%">
+                        <div class="card-body balance-img" style="background-color:tomato;">
+                            <a id="tigerBalmActiveMuscleSpray">
+                            <h4 class="card-title">Tiger Balm Active Muscle Spray</h4></a>
+                            <p>Tiger Balm Active Muscle Spray is an effective muscle pain reliever for combating aching muscles and pains for those hard to reach areas. The easy application of this muscle pain reliever targets people on the move. Tiger Balm Muscle Spray provides fast relief of pain and discomfort resulting from strenuous athletic training.</p>
+                            <ul>
+                                <li>Relieves muscle aches, sprains, strains and sore muscles</li>
+                                <li>Convenient applicator for hard to reach areas</li>
+                                <li>Pleasant scent, quick drying and non-staining liquid formulation</li>
+                                <li>Available in 75ml spray bottles</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer balance-img" style="background-color:firebrick;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <br>
+                            <p><i>"Trust me, buy this."- Michelle Boon</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" style="text-align:right;">
+                    <a href="#" class="backToTop">Back to the top</a>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+
+        <!--footer-->
+        <footer class="container-fluid text-center footer">
+            <div class="row">
+                <div class="col-sm-4" style="text-align:start;">
+                    <!--authorship information-->
+                    <p >Author: <b>Chloe Lim</b></p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!--disclaimer-->
+                            <p><em>Disclaimer: This is not the official Tiger Balm Website!</em></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Visit the actual Tiger Balm website <a href="https://www.tigerbalm.com/sg/">here</a>.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--second col-->
+                <div class="col-sm-4" style="text-align:start;">
+                    <!--contact-->
+                    <p>Contact us at example@example.com or 12345678</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!--press release-->
+                            <p>Find our press releases <a href="https://www.tigerbalm.com/sg/press_room/">here</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>And legal and privacy matters <a href="https://www.tigerbalm.com/sg/pages/privacy/">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!--third col-->
+            <div class="col-sm-4" style="text-align:start;">
+                <!--sitemap-->
+                <p>Visit us at:</p>
+
+                <div class="row">
+
+                        <!--map-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.50713007409!2d103.7225873384271!3d1.3061145061188493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0ff81338b9af%3A0x6cb140d5b38ca1e!2sHaw%20Par%20Tiger%20Balm%20Building!5e0!3m2!1sen!2ssg!4v1625286886366!5m2!1sen!2ssg"
+                        width="100%" height="fit-content" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+            </div>
+            <!--contact us-->
+            <!--press release-->
+            <!--sitemap-->
+            <!--social media-->
+        </footer>
+    </body>
+</html>
